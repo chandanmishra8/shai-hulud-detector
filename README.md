@@ -38,7 +38,7 @@ A standard npm `package-lock.json` file.
 ## Usage
 
 ``` bash
-python3 scanner.py --url https://raw.githubusercontent.com/wiz-sec-public/wiz-research-iocs/main/reports/shai-hulud-2-packages.csv --lock-file ./package-lock.json --check-version true
+python3 compromised-packages.py --url https://raw.githubusercontent.com/wiz-sec-public/wiz-research-iocs/main/reports/shai-hulud-2-packages.csv --lock-file ./package-lock.json --check-version true
 ```
 
 ### Arguments
